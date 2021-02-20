@@ -41,15 +41,6 @@ public class Maths {
 	       double[] result= {1/6,1/30,1/42,1/30,5/66,691/2730,7/6,3617/510,43867/798,174611/330};        
 	       return result;
 	   }
-	   
-	   /***
-	    * 
-	    * @param a
-	    * @return
-	    */
-	   public static double quadrantShift(double a) {
 
-	       return 0;
-	   }
 }
 

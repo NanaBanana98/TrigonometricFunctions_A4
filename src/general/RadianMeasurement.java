@@ -1,26 +1,24 @@
 package general;
 
-public class RadianMeasurement implements IAngleMeasurement{
+public class RadianMeasurement extends IAngleMeasurement{
 
 	double radians = 0;
 	
 	public RadianMeasurement(double radian) {
-		this.SetRadian(radian);
+		this.setRadian(radian);
 	}
 	
-	private boolean SetRadian(double radian)
+	private boolean setRadian(double radian)
 	{
 		this.radians = radian;
 		return true;
 	}
 	
-	@Override
-	public double GetRadianMeasurement() {
+	public double getRadianMeasurement() {
 		return this.radians;
 	}
 
-	@Override
-	public double GetDegreeMeasurement() {
+	public double getDegreeMeasurement() {
 		return this.radians * 180.0 / Maths.PI;
 	}
 

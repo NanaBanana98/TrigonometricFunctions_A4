@@ -1,27 +1,24 @@
 package general;
 
-public class DegreeMeasurement implements IAngleMeasurement {
+public class DegreeMeasurement extends IAngleMeasurement {
 
 	double degrees = 0;
 	
 	public DegreeMeasurement(double degrees) {
-		this.SetDegrees(degrees);
+		this.setDegrees(degrees);
 	}
 	
-	private boolean SetDegrees(double degrees)
+	private boolean setDegrees(double degrees)
 	{
 		this.degrees = degrees;
 		return true;
 	}
 	
-	@Override
-	public double GetRadianMeasurement() {
-		// TODO Auto-generated method stub
-		return 0;
+	public double getRadianMeasurement() {
+		return this.degrees / 180.0 * Maths.PI;
 	}
 
-	@Override
-	public double GetDegreeMeasurement() {
+	public double getDegreeMeasurement() {
 		return this.degrees;
 	}
 
