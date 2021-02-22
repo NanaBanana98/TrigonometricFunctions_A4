@@ -1,0 +1,115 @@
+Test Cases 
+
+All code is compiled by Eclipse and test with Junit5. 
+  
+
+SIN FUNCTION - Ariana
+
+Test Case Description           Input         Expected Output 
+Cartesian Boundry                 0                   0 
+Cartesian Boundry (Deg)           90                  1 
+Cartesian Boundry (Deg)           180                 0 
+Cartesian Boundry (Deg)           270                 -1 
+Cartesian Boundry (Deg)           360                 0 
+Cartesian Boundry (Rad)           ∏/2                 1 
+Cartesian Boundry (Rad)           ∏                   0 
+Cartesian Boundry (Rad)           3∏/2                -1 
+Cartesian Boundry (Rad)           2∏                  0 
+Negative Boundry (Deg)            -90                 -1 
+Negative Boundry (Deg)            -180                0 
+Negative Boundry (Deg)            -270                1 
+Negative Boundry (Deg)            -360                0 
+Negative Boundry (Rad)            -∏/2                -1 
+Negative Boundry (Rad)            -∏                  0 
+Negative Boundry (Rad)            -3∏/2               1 
+Negative Boundry (Rad)            -2∏                 0 
+Positive Angle greater than       360 
+Negative angle less than          360 
+Positive Angle greater than       2∏ 
+Negative angle less than          2∏ 
+
+  
+COS FUNCTION - Lincoln 
+
+Test Case Description           Input         Expected Output 
+Cartesian Boundry                 0                   1 
+Cartesian Boundry (Deg)           90                  0 
+Cartesian Boundry (Deg)           180                 -1 
+Cartesian Boundry (Deg)           270                 0 
+Cartesian Boundry (Deg)           360                 1 
+Cartesian Boundry (Rad)           ∏/2                 0 
+Cartesian Boundry (Rad)           ∏                   -1 
+Cartesian Boundry (Rad)           3∏/2                0 
+Cartesian Boundry (Rad)           2∏                  1 
+Negative Boundry (Deg)            -90                 0 
+Negative Boundry (Deg)            -180                -1 
+Negative Boundry (Deg)            -270                0 
+Negative Boundry (Deg)            -360                1 
+Negative Boundry (Rad)            -∏/2                0 
+Negative Boundry (Rad)            -∏                  -1 
+Negative Boundry (Rad)            -3∏/2               0  
+Negative Boundry (Rad)            -2∏                 1 
+Positive Angle greater than       360 
+Negative angle less than          360 
+Positive Angle greater than       2∏ 
+Negative angle less than          2∏ 
+
+
+TAN FUNCTION - Ang 
+
+Test Case Description           Input         Expected Output 
+Cartesian Boundry                 0                   0 
+Cartesian Boundry (Deg)           180                 0 
+Cartesian Boundry (Deg)           360                 0 
+Cartesian Boundry (Rad)           ∏                   0 
+Cartesian Boundry (Rad)           2∏                  0 
+Negative Boundry (Deg)            -90     Throw ArithmeticException 
+Negative Boundry (Deg)            -180                0 
+Negative Boundry (Deg)            -270    Throw ArithmeticException 
+Negative Boundry (Deg)            -360                0 
+Negative Boundry (Rad)            -∏/2    Throw ArithmeticException 
+Negative Boundry (Rad)            -∏                  0 
+Negative Boundry (Rad)            -3∏/2   Throw ArithmeticException 
+Negative Boundry (Rad)            -2∏                 0 
+Positive Angle greater than 360    405                1 
+Negative angle less than 360      -405                -1 
+Positive Angle greater than 2∏    9∏/4                1 
+Negative angle less than 2∏       -9∏/4               -1 
+Asymptote (deg)                   90     Throw ArithmeticException 
+Asymptote (deg)                   270    Throw ArithmeticException 
+Asymptote (rad)                   ∏/2    Throw ArithmeticException 
+Asymptote (rad)                   3∏/2   Throw ArithmeticException 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
