@@ -2,7 +2,7 @@ package tangent;
 
 import general.*;
 
-public class Tan_VersionOnlyHaveSimpeAlgorithm {
+public class Tan_VersionOnlyHaveSimpleAlgorithm {
 
 	public static double calculate(IAngleMeasurement A)
 	{
