@@ -1,16 +1,20 @@
 package sine;
 import general.*;
 
+
+/**
+ * This class is used to calculate sin
+ * @author Ariana Avdoulos
+ * @version 1
+ */
 public class Sin {
 
+	/**
+	 * Calculate the sine value of an angle
+	 * @param a - An angle measurement
+	 * @return the sine value
+	 */
 	public static double calculate(IAngleMeasurement a) {
-	       double sum=0,temp=1;
-	       for(int i = 3; i<=21; i=i+2) {
-	           for(int j=i;j>0;j--) {
-	               temp=temp*a.getRadianMeasurement()/j;
-	           }
-	           sum=sum+temp;
-	       }
-	       return sum;
+		return a.getRadianMeasurement();
 	}
 }
