@@ -79,10 +79,28 @@ Asymptote (deg)                   90     Throw ArithmeticException
 Asymptote (deg)                   270    Throw ArithmeticException 
 Asymptote (rad)                   ∏/2    Throw ArithmeticException 
 Asymptote (rad)                   3∏/2   Throw ArithmeticException 
+Just above Cartesian Boundry (Degree)   -90+.1      -7.371660 
+Just above Cartesian Boundry (Degree)   -180+.1     0.100335 
+Just above Cartesian Boundry (Degree)   -270+.1     -7.371660 
+Just above Cartesian Boundry (Degree)   -360+.1     0.100335 
+Just above Cartesian Boundry (rad)      -(∏/2)+.1   -7.371660 
+Just above Cartesian Boundry (rad)      -∏+.1       0.100335 
+Just above Cartesian Boundry (rad)      -(3∏/2)+.1  -7.371660 
+Just above Cartesian Boundry (rad)      -(2∏)+.1    0.100335 
+Just above Cartesian Boundry (Degree)   0+.1        0.100335 
+Just above Cartesian Boundry (Degree)   90+.1       -7.371660 
+Just above Cartesian Boundry (Degree)   180+.1      0.100335 
+Just above Cartesian Boundry (Degree)   270+.1      -7.371660 
+Just below Cartesian Boundry (Degree)   360+.1      0.100335 
+Just above Cartesian Boundry (rad)      (∏/2)+.1    -7.371660 
+Just above Cartesian Boundry (rad)      ∏+.1        0.100335 
+Just above Cartesian Boundry (rad)      (3∏/2)+.1   -7.371660 
+Just above below Cartesian Boundry (rad) (2∏)+.1    0.100335 
+Whole Equivalence Partition Q1 (degree)   45        1 
+Whole Equivalence Partition Q2 (degree)   135       -1 
+Whole Equivalence Partition Q3 (degree)   225       1 
+Whole Equivalence Partition Q4 (degree)   315       -1 
 
- 
-
- 
 
  
 
