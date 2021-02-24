@@ -1,8 +1,9 @@
 Test Cases 
 
 All code is compiled by Eclipse and test with Junit5. 
-  
-
+ 
+ Preliminary Discussion:
+ 
 SIN FUNCTION - Ariana
 
 Test Case Description           Input         Expected Output 
