@@ -1,5 +1,9 @@
 package general;
 
+/**
+ * @author Ariana Avdoulos, Ang Li
+ *General math functions used to help in our primary functions: cos, tan, and sin 
+ */
 public class Maths {
 	   public static final double E = 2.7182818284590452354;	//approx. value of e
 	    
@@ -24,10 +28,12 @@ public class Maths {
 	    * @param a - value to find factorial of (ex. a = 5, factorial returns 5!)
 	    * @return a!
 	    */
-	   public static double factorial(int a) {
-	       double result=1;
+	   public static long factorial(long a) {
+	       long result=1;	// default result
+	       
+	       //multiplies a times
 	       for(double i=1;i<=a;i++) {
-	           result=result*i;
+	           result=(long) (result*i);
 	       }
 	       return result;
 	   }

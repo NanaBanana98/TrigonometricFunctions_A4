@@ -1,13 +1,29 @@
 package general;
 
+/**
+ * @author Ariana Avdoulos, Ang Li
+ *
+ *This class represents angle measurements.
+ */
 public abstract class IAngleMeasurement {
 
 	
 	
+	/**
+	 * @return The value of the angle in radians
+	 */
 	public abstract double getRadianMeasurement();
 	
+	
+	/**
+	 * @return the value of the angle in degrees
+	 */
 	public abstract double getDegreeMeasurement();
 	
+	
+	/**
+	 * @return enum quadrant value, indicating what quadrant the angle lies in
+	 */
 	public Quadrant getQuadrant() {
 		double temp=this.getRadianMeasurement()%(2*Maths.PI);
 		//transform negative to positive
@@ -63,4 +79,16 @@ public abstract class IAngleMeasurement {
 		}
 
 	}	
+	
+	
+	/**
+	 * Some angle meausrements may hold values that are greater than the unit circle. Thsi function reduces the angle so it is inbetween 0 and 360 degrees
+	 * @return the reduced angle
+	 */
+	public double findAngleInUnitCircle() {
+		int canFit = (int) (this.getDegreeMeasurement()/360);
+		int wholeValue = 360 * canFit;
+		double result = this.getDegreeMeasurement() - wholeValue;
+		return result;
+	}
 }
