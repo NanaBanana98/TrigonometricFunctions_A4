@@ -29,7 +29,9 @@ public class Maths {
 	    * @return a!
 	    */
 	   public static long factorial(long a) {
-	       long result=1;
+	       long result=1;	// default result
+	       
+	       //multiplies a times
 	       for(double i=1;i<=a;i++) {
 	           result=(long) (result*i);
 	       }
