@@ -35,7 +35,7 @@ class Test_Cos {
 					mathCosResult =Cos.calculate(angle);
 					
 					//assert
-					Assertions.assertEquals(mathCosResult, 0, .0000001);
+					Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 				}
 				
 				@Nested
@@ -58,7 +58,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 1, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .0000001);
 						}
 						
 						@Test
@@ -72,7 +72,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 0, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .0000001);
 						}
 						
 						@Test
@@ -86,7 +86,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, -1, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .0000001);
 						}
 						
 						@Test
@@ -100,7 +100,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 0, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .0000001);
 						}
 					}
 					
@@ -119,7 +119,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, -1);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()),.00001);
 						}
 						
 						@Test
@@ -133,7 +133,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 0,.3);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()),.3);
 						}
 						
 						@Test
@@ -147,7 +147,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 1);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()),.00001);
 						}
 						
 						@Test
@@ -161,7 +161,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 0, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 						
 					}
@@ -189,7 +189,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 1, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 						
 						@Test
@@ -203,7 +203,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 0, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 						
 						@Test
@@ -217,7 +217,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, -1, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 						
 						@Test
@@ -231,7 +231,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 0, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 					}
 					
@@ -251,7 +251,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, -1, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 						
 						@Test
@@ -281,7 +281,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 1, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 						
 						@Test
@@ -295,7 +295,7 @@ class Test_Cos {
 							mathCosResult = Cos.calculate(angle);
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, 0, .0000001);
+							Assertions.assertEquals(mathCosResult, Math.cos(angle.getRadianMeasurement()), .00001);
 						}
 					}
 					
@@ -324,7 +324,7 @@ class Test_Cos {
 					mathCosResult = Math.cos(angle.getRadianMeasurement());
 					
 					//assert
-					Assertions.assertEquals(mathCosResult, cosResult, .0000001);
+					Assertions.assertEquals(mathCosResult, cosResult, .00001);
 				}
 				
 				@Test
@@ -340,7 +340,7 @@ class Test_Cos {
 					mathCosResult = Math.cos(angle.getRadianMeasurement());
 					
 					//assert
-					Assertions.assertEquals(mathCosResult, cosResult, .0000001);
+					Assertions.assertEquals(mathCosResult, cosResult, .00001);
 				}
 				
 				@Nested
@@ -445,11 +445,11 @@ class Test_Cos {
 							double mathCosResult;	//holds result of Math.sin from java library
 							
 							//act
-							cosResult = Sin.calculate(angle);
+							cosResult = Cos.calculate(angle);
 							mathCosResult = Math.cos(angle.getRadianMeasurement());
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, cosResult, .0000001);
+							Assertions.assertEquals(mathCosResult, cosResult, .00001);
 						}
 						
 						@Test
@@ -498,15 +498,15 @@ class Test_Cos {
 							//assign
 							IAngleMeasurement angle = new DegreeMeasurement(90 - .1);	//input value
 							
-							double sinResult;		//holds result of Sin.calculate
+							double cosResult;		//holds result of Sin.calculate
 							double mathCosResult;	//holds result of Math.sin from java library
 							
 							//act
-							sinResult = Sin.calculate(angle);
+							cosResult = Cos.calculate(angle);
 							mathCosResult = Math.cos(angle.getRadianMeasurement());
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, sinResult, .0000001);
+							Assertions.assertEquals(mathCosResult, cosResult, .00001);
 						}
 						
 						@Test
@@ -514,15 +514,15 @@ class Test_Cos {
 							//assign
 							IAngleMeasurement angle = new DegreeMeasurement(180 - .1);	//input value
 							
-							double sinResult;		//holds result of Sin.calculate
+							double cosResult;		//holds result of Sin.calculate
 							double mathCosResult;	//holds result of Math.sin from java library
 							
 							//act
-							sinResult = Sin.calculate(angle);
+							cosResult = Cos.calculate(angle);
 							mathCosResult = Math.cos(angle.getRadianMeasurement());
 							
 							//assert
-							Assertions.assertEquals(mathCosResult, sinResult, .0000001);
+							Assertions.assertEquals(mathCosResult, cosResult, .00001);
 						}
 						
 						@Test
@@ -654,7 +654,7 @@ class Test_Cos {
 						mathCosResult = Math.cos(angle.getRadianMeasurement());
 						
 						//assert
-						Assertions.assertEquals(mathCosResult, cosResult,.0000001);
+						Assertions.assertEquals(mathCosResult, cosResult,.00001);
 					}
 					
 					@Test
@@ -690,7 +690,7 @@ class Test_Cos {
 						mathCosResult = Math.cos(angle.getRadianMeasurement());
 						
 						//assert
-						Assertions.assertEquals(mathCosResult, cosResult, .0000001);
+						Assertions.assertEquals(mathCosResult, cosResult, .00001);
 					}
 					
 					@Test

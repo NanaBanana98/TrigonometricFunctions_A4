@@ -84,7 +84,7 @@ class Test_Sin {
 						mathSinResult = Sin.calculate(angle);
 						
 						//assert
-						Assertions.assertEquals(mathSinResult, -1, .0000001);
+						Assertions.assertEquals(mathSinResult, -1, .00001);
 					}
 					
 					@Test
@@ -117,7 +117,7 @@ class Test_Sin {
 						mathSinResult = Sin.calculate(angle);
 						
 						//assert
-						Assertions.assertEquals(mathSinResult, -1);
+						Assertions.assertEquals(mathSinResult, -1, 0000001);
 					}
 					
 					@Test
@@ -145,7 +145,7 @@ class Test_Sin {
 						mathSinResult = Sin.calculate(angle);
 						
 						//assert
-						Assertions.assertEquals(mathSinResult, 1);
+						Assertions.assertEquals(mathSinResult, 1, .00001);
 					}
 					
 					@Test
