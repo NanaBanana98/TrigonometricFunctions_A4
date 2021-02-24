@@ -7,7 +7,6 @@ import org.junit.jupiter.api.*;
 import general.DegreeMeasurement;
 import general.IAngleMeasurement;
 import general.RadianMeasurement;
-import sine.Sin;
 
 class Test_Cos {
 
