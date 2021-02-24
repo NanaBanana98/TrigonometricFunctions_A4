@@ -1,6 +1,8 @@
 Test Cases 
 
 All code is compiled by Eclipse and test with Junit5. 
+ All test cases work with a diffrence of 0.00001 diffrence between java Math Libray trig functions and the ones created by us
+ 
  
  Preliminary Discussion:
  
