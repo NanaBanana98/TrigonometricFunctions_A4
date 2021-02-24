@@ -1,5 +1,9 @@
 package general;
 
+/**
+ * @author Ariana Avdoulos, Ang Li
+ *General math functions used to help in our primary functions: cos, tan, and sin 
+ */
 public class Maths {
 	   public static final double E = 2.7182818284590452354;	//approx. value of e
 	    
