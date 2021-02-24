@@ -25,7 +25,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0, .0000001);
 	}
 	
 	/***CARTESIAN BOUNDRIES IN DEGREES***/
@@ -43,7 +43,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 1, .0000001);
 	}
 	
 	@Test
@@ -59,7 +59,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0, .0000001);
 	}
 	
 	@Test
@@ -75,7 +75,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, -1, .0000001);
 	}
 	
 	@Test
@@ -91,7 +91,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0, .0000001);
 	}
 	
 	/***CARTESIAN BOUNDRIES IN RADIANS***/
@@ -109,7 +109,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 1, .0000001);
 	}
 	
 	@Test
@@ -125,7 +125,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0, .0000001);
 	}
 	
 	@Test
@@ -141,7 +141,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, -1, .0000001);
 	}
 	
 	@Test
@@ -157,7 +157,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0, .0000001);
 	}
 	
 	/***CARTESIAN BOUNDRIES IN NEGATIVE DEGREES***/
@@ -175,7 +175,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, -1, .0000001);
 	}
 	
 	@Test
@@ -191,7 +191,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -207,7 +207,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 1, .0000001);
 	}
 	
 	@Test
@@ -223,7 +223,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0, .0000001);
 	}
 	
 	/***CARTESIAN BOUNDRIES IN RADIANS***/
@@ -241,7 +241,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, -1);
 	}
 	
 	@Test
@@ -257,7 +257,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0,.3);
 	}
 	
 	@Test
@@ -273,7 +273,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 1);
 	}
 	
 	@Test
@@ -289,7 +289,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, 0, .0000001);
 	}
 	
 	/***JUST BELOW CARTESIAN BOUNDRY***/
@@ -307,7 +307,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	/***CARTESIAN BOUNDRIES IN DEGREES***/
@@ -325,7 +325,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -341,7 +341,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -357,7 +357,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .00001);
 	}
 	
 	@Test
@@ -373,7 +373,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .000001);
 	}
 	
 	/***CARTESIAN BOUNDRIES IN RADIANS***/
@@ -391,7 +391,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -407,7 +407,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -423,7 +423,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .00001);
 	}
 	
 	@Test
@@ -439,7 +439,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .00001);
 	}
 	
 	/***JUST ABOVE CARTESIAN BOUNDRY***/
@@ -457,7 +457,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	/***JUST ABOVE CARTESIAN BOUNDRIES IN DEGREES***/
@@ -475,7 +475,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -491,7 +491,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -507,7 +507,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult,.00001);
 	}
 	
 	@Test
@@ -523,7 +523,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	/***JUST ABOVE CARTESIAN BOUNDRIES IN RADIANS***/
@@ -541,7 +541,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -557,7 +557,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -573,7 +573,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .00001);
 	}
 	
 	@Test
@@ -589,7 +589,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .01);
 	}
 	
 	/***EQUIVLENCE PARTIONING, positive, non-decimal value from each quadrant (in degrees)***/
@@ -607,7 +607,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -623,7 +623,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -639,7 +639,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
@@ -655,7 +655,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .001);
 	}
 	
 	@Test
@@ -671,13 +671,13 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .0000001);
 	}
 	
 	@Test
 	void calculateShould_MatchSinFromJavaLibrary_WhenAngleIsPositiveLessThan0Degrees() {
 		//assign
-		IAngleMeasurement angle = new DegreeMeasurement(-550);	//input value
+		IAngleMeasurement angle = new DegreeMeasurement(-361);	//input value
 		
 		double sinResult;		//holds result of Sin.calculate
 		double mathSinResult;	//holds result of Math.sin from java library
@@ -687,7 +687,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult, .000001);
 	}
 	
 	@Test
@@ -703,13 +703,13 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult,.0000001);
 	}
 	
 	@Test
 	void calculateShould_MatchSinFromJavaLibrary_WhenAngleIsPositiveLessThan0Radians() {
 		//assign
-		IAngleMeasurement angle = new RadianMeasurement(-550*Math.PI);	//input value
+		IAngleMeasurement angle = new RadianMeasurement(Math.PI);	//input value
 		
 		double sinResult;		//holds result of Sin.calculate
 		double mathSinResult;	//holds result of Math.sin from java library
@@ -719,6 +719,6 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult);
+		Assertions.assertEquals(mathSinResult, sinResult,.0000001);
 	}
 }
