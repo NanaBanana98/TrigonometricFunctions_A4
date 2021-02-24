@@ -49,11 +49,31 @@ Negative Boundry (Rad)            -∏/2                0
 Negative Boundry (Rad)            -∏                  -1 
 Negative Boundry (Rad)            -3∏/2               0  
 Negative Boundry (Rad)            -2∏                 1 
-Positive Angle greater than       360 
-Negative angle less than          360 
-Positive Angle greater than       2∏ 
-Negative angle less than          2∏ 
-
+Positive Angle greater than 360    420                0.5
+Negative angle less than 360      -420                0.5 
+Positive Angle greater than 2∏    7∏/3                0.5 
+Negative angle less than 2∏       -7∏/3               0.5 
+Just above Cartesian Boundry (Degree)   90+.1      -0.001745  
+Just above Cartesian Boundry (Degree)   180+.1     -0.999998  
+Just above Cartesian Boundry (Degree)   270+.1     0.001745  
+Just above Cartesian Boundry (Degree)   360+.1     0.999998  
+Just above Cartesian Boundry (rad)      (∏/2)+.1   -0.099833  
+Just above Cartesian Boundry (rad)      ∏+.1       -0.995004  
+Just above Cartesian Boundry (rad)      (3∏/2)+.1  0.099833  
+Just above Cartesian Boundry (rad)      (2∏)+.1    0.995004  
+Just above Cartesian Boundry (Degree)   -0+.1        0.995004  
+Just above Cartesian Boundry (Degree)   -90+.1       0.001745  
+Just above Cartesian Boundry (Degree)   -180+.1      -0.999998  
+Just above Cartesian Boundry (Degree)   -270+.1      -0.001745  
+Just below Cartesian Boundry (Degree)   -360+.1      0.999998  
+Just above Cartesian Boundry (rad)      -(∏/2)+.1    0.099833  
+Just above Cartesian Boundry (rad)     -∏+.1        -0.995004  
+Just above Cartesian Boundry (rad)      -(3∏/2)+.1   -0.099833  
+Just above below Cartesian Boundry (rad) -(2∏)+.1    0.995004  
+Whole Equivalence Partition Q1 (degree)   45        0.707107  
+Whole Equivalence Partition Q2 (degree)   135       -0.707107  
+Whole Equivalence Partition Q3 (degree)   225       -0.707107  
+Whole Equivalence Partition Q4 (degree)   315       0.707107  
 
 TAN FUNCTION - Ang 
 
@@ -79,19 +99,19 @@ Asymptote (deg)                   90     Throw ArithmeticException
 Asymptote (deg)                   270    Throw ArithmeticException 
 Asymptote (rad)                   ∏/2    Throw ArithmeticException 
 Asymptote (rad)                   3∏/2   Throw ArithmeticException 
-Just above Cartesian Boundry (Degree)   -90+.1      -7.371660 
-Just above Cartesian Boundry (Degree)   -180+.1     0.100335 
-Just above Cartesian Boundry (Degree)   -270+.1     -7.371660 
-Just above Cartesian Boundry (Degree)   -360+.1     0.100335 
+Just above Cartesian Boundry (Degree)   -90+.1      -12.909791 
+Just above Cartesian Boundry (Degree)   -180+.1     0.001745 
+Just above Cartesian Boundry (Degree)   -270+.1     -12.909791 
+Just above Cartesian Boundry (Degree)   -360+.1     0.001745 
 Just above Cartesian Boundry (rad)      -(∏/2)+.1   -7.371660 
 Just above Cartesian Boundry (rad)      -∏+.1       0.100335 
 Just above Cartesian Boundry (rad)      -(3∏/2)+.1  -7.371660 
 Just above Cartesian Boundry (rad)      -(2∏)+.1    0.100335 
 Just above Cartesian Boundry (Degree)   0+.1        0.100335 
-Just above Cartesian Boundry (Degree)   90+.1       -7.371660 
-Just above Cartesian Boundry (Degree)   180+.1      0.100335 
-Just above Cartesian Boundry (Degree)   270+.1      -7.371660 
-Just below Cartesian Boundry (Degree)   360+.1      0.100335 
+Just above Cartesian Boundry (Degree)   90+.1       -12.909791 
+Just above Cartesian Boundry (Degree)   180+.1      0.001745 
+Just above Cartesian Boundry (Degree)   270+.1      -12.909791 
+Just below Cartesian Boundry (Degree)   360+.1      0.001745 
 Just above Cartesian Boundry (rad)      (∏/2)+.1    -7.371660 
 Just above Cartesian Boundry (rad)      ∏+.1        0.100335 
 Just above Cartesian Boundry (rad)      (3∏/2)+.1   -7.371660 
