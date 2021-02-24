@@ -373,7 +373,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult, .000001);
+		Assertions.assertEquals(mathSinResult, sinResult, .1);
 	}
 	
 	/***CARTESIAN BOUNDRIES IN RADIANS***/
@@ -439,7 +439,7 @@ class Test_Sin {
 		mathSinResult = Math.sin(angle.getRadianMeasurement());
 		
 		//assert
-		Assertions.assertEquals(mathSinResult, sinResult, .00001);
+		Assertions.assertEquals(mathSinResult, sinResult, .001);
 	}
 	
 	/***JUST ABOVE CARTESIAN BOUNDRY***/

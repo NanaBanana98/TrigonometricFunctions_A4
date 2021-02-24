@@ -63,4 +63,11 @@ public abstract class IAngleMeasurement {
 		}
 
 	}	
+	
+	public double findAngleInUnitCircle() {
+		int canFit = (int) (this.getDegreeMeasurement()/360);
+		int wholeValue = 360 * canFit;
+		double result = this.getDegreeMeasurement() - wholeValue;
+		return result;
+	}
 }
