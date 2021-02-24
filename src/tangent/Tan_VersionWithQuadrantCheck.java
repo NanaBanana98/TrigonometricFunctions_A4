@@ -6,6 +6,7 @@ public class Tan_VersionWithQuadrantCheck {
 
 	public static double calculate(IAngleMeasurement A)
 	{
+		
 		double a = A.quadrantShift();
 		double[] bernoulli=new double[11];
 		bernoulli=Maths.Bernoulli();
@@ -19,6 +20,7 @@ public class Tan_VersionWithQuadrantCheck {
 		if(q== Quadrant.Q2 || q== Quadrant.Q4) {
 			sum=0-sum;
 		}
-		return sum;    	
+		return sum;   
+		
 	}
 }
