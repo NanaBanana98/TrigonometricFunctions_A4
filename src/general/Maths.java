@@ -24,10 +24,10 @@ public class Maths {
 	    * @param a - value to find factorial of (ex. a = 5, factorial returns 5!)
 	    * @return a!
 	    */
-	   public static double factorial(int a) {
-	       double result=1;
+	   public static long factorial(long a) {
+	       long result=1;
 	       for(double i=1;i<=a;i++) {
-	           result=result*i;
+	           result=(long) (result*i);
 	       }
 	       return result;
 	   }

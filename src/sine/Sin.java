@@ -18,8 +18,12 @@ public class Sin {
 	 * @return the sine value
 	 */
 	public static double calculate(IAngleMeasurement a) {
-		//double result = a.quadrantShift();
-		//IAngleMeasurement angle = new RadianMeasurement(result);
+		if(a.getRadianMeasurement() >= 2*Maths.PI || a.getRadianMeasurement() <= -2*Maths.PI)
+		{
+			IAngleMeasurement b = new DegreeMeasurement(a.findAngleInUnitCircle());
+			return Sin_Initial(b.getRadianMeasurement(), 1);
+
+		}
 		
 		return Sin_Initial(a.getRadianMeasurement(), 1);
 	}
@@ -47,7 +51,7 @@ public class Sin {
 		
 		long oddn = (2*n)-1;
 		int oddn_int = (int) oddn;
-		long factorial = factorialTest.factorial( oddn).longValueExact();
+		long factorial = Maths.factorial(oddn);
 		double power = Maths.power(x, oddn_int);
 		
 		return sign * (power / factorial);
