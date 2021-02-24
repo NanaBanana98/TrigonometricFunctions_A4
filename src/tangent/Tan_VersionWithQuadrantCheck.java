@@ -2,15 +2,12 @@ package tangent;
 
 import general.*;
 
-public class Tan_FinalVersion {
+public class Tan_VersionWithQuadrantCheck {
 
 	public static double calculate(IAngleMeasurement A)
 	{
 		
 		double a = A.quadrantShift();
-		if(a==Maths.PI/2) {
-			throw new ArithmeticException();  //HalfPiInputForTanException
-		}
 		double[] bernoulli=new double[11];
 		bernoulli=Maths.Bernoulli();
 		double temp;
@@ -23,7 +20,7 @@ public class Tan_FinalVersion {
 		if(q== Quadrant.Q2 || q== Quadrant.Q4) {
 			sum=0-sum;
 		}
-		return sum;  
+		return sum;   
 		
 	}
 }

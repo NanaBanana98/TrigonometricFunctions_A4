@@ -5,6 +5,7 @@ import general.*;
 public class Cos_FinalVersion {
 
 	public static double calculate(IAngleMeasurement a) {
+		
 		// If an angle has a value greater than the unit circle => reduce the value to be in the bounds of the unit circle
 		if (a.getRadianMeasurement() >= 2 * Maths.PI || a.getRadianMeasurement() <= -2 * Maths.PI) {
 			a = new DegreeMeasurement(a.findAngleInUnitCircle());
