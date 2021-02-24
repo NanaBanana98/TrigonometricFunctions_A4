@@ -6,6 +6,6 @@ public class Tan_InitialVersion {
 
 	public static double calculate(IAngleMeasurement A)
 	{
-    	return -2;    	
+    		return -2;    	
 	}
 }
